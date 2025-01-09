@@ -33,10 +33,10 @@
 
         raise_layer {
             bindings = <
-&kp DE_AMPS   &kp DE_EQUAL  &kp DE_PLUS  &kp DE_MINUS  &kp DE_STAR  &kp DE_SLASH    &trans  &trans  &trans  &trans  &trans  &kp BSPC
-&kp DE_PIPE   &kp N1        &kp N2       &kp N3        &kp N4       &kp N5          &trans  &trans  &trans  &trans  &trans  &trans
-&kp DE_TILDE  &kp N6        &kp N7       &kp N8        &kp N9       &kp N0          &trans  &trans  &trans  &trans  &trans  &trans
-                                         &trans        &trans       &trans          &trans  &trans  &trans
+&kp DE_AMPS   &kp DE_EQUAL  &kp DE_PLUS  &kp DE_MINUS  &kp DE_STAR  &kp DE_SLASH    &trans  &trans           &trans           &trans           &trans  &trans
+&kp DE_PIPE   &kp N1        &kp N2       &kp N3        &kp N4       &kp N5          &trans  &kp DE_A_UMLAUT  &kp DE_O_UMLAUT  &kp DE_U_UMLAUT  &trans  &trans
+&kp DE_TILDE  &kp N6        &kp N7       &kp N8        &kp N9       &kp N0          &trans  &kp DE_EURO      &kp DE_HASH      &kp DE_DLLR      &trans  &trans
+                                         &trans        &trans       &trans          &trans  &trans           &trans
             >;
         };
     };
