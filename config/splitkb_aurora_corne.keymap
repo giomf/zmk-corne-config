@@ -52,9 +52,9 @@
 
         lower_layer {
             bindings = <
-&bt BT_CLR_ALL  &none         &none         &none         &none         &none           &kp DE_CARET      &kp DE_LPAR          &kp DE_RPAR        &kp DE_LBKT  &kp DE_RBKT  &kp ESC
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none             &kp LEFT_ARROW       &kp DOWN           &kp UP       &kp RIGHT    &kp DEL
-&none           &none         &none         &none         &none         &none           &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &kp DE_LEFT_BRACE  &kp DE_RBRC  &kp DE_DQT   &kp DE_SQT
+&bt BT_CLR_ALL  &none         &none         &none         &none         &none           &kp DE_CARET      &kp DE_LPAR          &kp DE_RPAR          &kp DE_LBRC  &kp DE_RBRC  &none
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT          &kp DOWN             &kp UP               &kp RIGHT    &kp DE_DQT   &kp DEL
+&none           &none         &none         &none         &none         &none           &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &kp DE_LEFT_BRACKET  &kp DE_RBKT  &kp DE_SQT   &none
                                             &none         &none         &none           &none             &none                &none
             >;
         };
