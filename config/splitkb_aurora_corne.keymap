@@ -52,10 +52,10 @@
 
         navigation_bluetooth {
             bindings = <
-&none  &none     &none         &none      &none      &none    &none     &kp HOME  &kp END  &none      &none  &none
-&none  &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none    &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &none  &kp DEL
-&none  &none     &none         &none      &none      &none    &none     &none     &none    &none      &none  &none
-                               &none      &none      &none    &none     &none     &none
+&none  &none     &none         &none      &none      &none    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &none  &none
+&none  &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &none  &kp DEL
+&none  &none     &none         &none      &none      &none    &none     &none          &none        &none      &none  &none
+                               &none      &none      &none    &none     &none          &none
             >;
         };
 
