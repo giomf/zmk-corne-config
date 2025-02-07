@@ -59,10 +59,10 @@
 
         numbers {
             bindings = <
-&none  &none  &kp DE_N7  &kp DE_N8  &kp DE_N9  &kp DE_STAR    &none  &none           &none      &none         &none         &none
-&none  &none  &kp DE_N4  &kp DE_N5  &kp DE_N6  &kp DE_PLUS    &none  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &none
-&none  &none  &kp DE_N1  &kp DE_N2  &kp DE_N3  &none          &none  &none           &none      &none         &none         &none
-                         &none      &none      &kp DE_N0      &none  &none           &none
+&none  &kp DE_EURO    &kp DE_N7  &kp DE_N8   &kp DE_N9     &kp DE_STAR    &none  &none           &none      &none         &none         &none
+&none  &kp DE_DOLLAR  &kp DE_N4  &kp DE_N5   &kp DE_N6     &kp DE_PLUS    &none  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &none
+&none  &none          &kp DE_N1  &kp DE_N2   &kp DE_N3     &none          &none  &none           &none      &none         &none         &none
+                                 &kp DE_DOT  &kp DE_COMMA  &kp DE_N0      &none  &none           &none
             >;
         };
 
@@ -77,7 +77,7 @@
 
         symbols {
             bindings = <
-&trans       &trans       &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &none        &none          &kp DE_EQUAL       &kp DE_SQT            &trans        &kp DE_BACKSLASH  &kp DE_HASH       &trans
+&trans       &trans       &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &none        &none          &kp DE_EQUAL       &kp DE_SQT            &none         &kp DE_BACKSLASH  &kp DE_HASH       &trans
 &kp DE_LBKT  &kp DE_RBKT  &kp DE_LBRC       &kp DE_RBRC          &kp DE_LPAR  &kp DE_RPAR    &kp DE_MINUS       &kp DE_DOUBLE_QUOTES  &kp DE_TILDE  &kp DE_SLASH      &kp DE_PERCENT    &none
 &trans       &trans       &none             &none                &none        &none          &kp DE_UNDERSCORE  &kp DE_GRAVE          &trans        &kp DE_PIPE       &kp DE_AMPERSAND  &trans
                                             &trans               &trans       &trans         &trans             &trans                &trans
