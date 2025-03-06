@@ -77,7 +77,7 @@
 
         symbols {
             bindings = <
-&none        &none        &none        &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &none          &kp DE_EQUAL       &kp DE_SQT            &kp DE_PIPE       &kp DE_DOLLAR   &kp DE_HASH       &none
+&none        &none        &none        &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &none          &kp DE_EQUAL       &kp DE_SQT            &kp DE_PIPE       &kp DE_DOLLAR   &kp DE_HASH       &kp DE_ASTERISK
 &kp DE_LBKT  &kp DE_RBKT  &kp DE_LBRC  &kp DE_RBRC       &kp DE_LPAR          &kp DE_RPAR    &kp DE_MINUS       &kp DE_DOUBLE_QUOTES  &kp DE_SLASH      &kp DE_TILDE    &kp DE_PERCENT    &none
 &none        &none        &none        &none             &none                &none          &kp DE_UNDERSCORE  &kp DE_GRAVE          &kp DE_BACKSLASH  &kp DE_AT_SIGN  &kp DE_AMPERSAND  &none
                                        &none             &none                &none          &none              &none                 &none
